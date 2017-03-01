@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystal Collector</title>
+    <!-- Linking CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+<!--javascript file jquery link-->
+	    <link rel="javascript" type="text/js" href="assets/javascript/game.js">		
+			<script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous"></script>
+
+</head>
+
+<body id="centered">
+    <h1>Crystal Collector!</h1>
+    <!--instructions-->
+    <div class="instructions">
+       <h2>Instructions</h2>
+        <p>You will be given a random number at the start of the game that you need to reach.</p>
+        <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>When the game restarts the values of each crystal will change.</p>
+    </div>
+    <!--the generated number-->
+    <div class="columns">
+        <div class="number">Can you get to this number?</div>
+        <div class="randomNumber"> </div>
+
+    <!--wins and losses-->
+        <div id="wins">Wins:</div>
+        <div id="losses">Losses: </div>
+        </div>
+ 
+    <br>
+    <!--images-->
+    <div class="images">
+        <button><img class="emerald" src="assets/images/emerald.png" alt="Emerald"></button>
+        <button><img class="amethyst" src="assets/images/amethyst.jpg" alt="Amethyst"></button>
+        <button><img class="ruby" src="assets/images/ruby.png" alt="Ruby"></button>
+        <button><img class="opal" src="assets/images/opal.jpg" alt="Opal"></button>
+    </div>
+    <br>
+    <!--the boxes for your score-->
+        <div class="yourScore">Your total score is:</div>
+        <div class="yourNumber"> </div>
+    </div>
+    <footer> </footer>
+</body>
+
+</html>

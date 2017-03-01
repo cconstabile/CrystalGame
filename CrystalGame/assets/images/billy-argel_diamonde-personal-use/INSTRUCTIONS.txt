@@ -1,0 +1,9 @@
+
+
+For different swashes.
+
+Type underline + number like ( _1 ) for the swash one ( _2 ) for the swash 2 and sub consequently  you will obtain 10 different swashes
+
+
+
+Enjoy

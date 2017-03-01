@@ -1,0 +1,143 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*divs*/
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(../images/billy-argel_diamonde-personal-use/DiamondePersonalUse.ttf) format("truetype");
+}
+
+h1 {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: "My Custom Font";
+    font-size: 40px;
+    width: 500px;
+    text-align: center;
+}
+
+h2 {
+	padding-top: 10px;
+	padding-left: 20px;
+	background-color: white;
+    font-family: "My Custom Font";
+    font-size: 30px;
+    width: 450px;
+}
+
+.instructions {
+    background-color: white;
+    width: 500px;
+}
+
+p {
+    font-family: arial helvetica;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    margin-left: 5px;
+}
+
+.columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    margin-top: 10px;
+}
+.number {
+    background-color: white;
+    height: 50px;
+    width: 350px;
+    overflow: hidden;
+}
+.randomNumber {
+    background-color: white;
+    height: 50px;
+    width: 350px;
+    overflow: hidden;
+}
+
+#wins {
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 50%;
+    height: 50px;
+    overflow: hidden;
+}
+
+#losses {
+	background-color: white;
+    width: 50%;
+    height: 45px;
+    
+}
+
+
+/*images*/
+
+.images {
+    display: block;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.opal {
+    width: auto;
+    height: 100px;
+    float: left;
+    margin-right: 5px;
+}
+
+.emerald {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin-right: 5px;
+}
+
+.ruby {
+    height: 100px;
+    width: auto;
+    background-color: white;
+    float: left;
+    margin-right: 5px;
+}
+
+.amethyst {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-right: 5px;
+}
+
+.yourScore {
+    background-color: white;
+    margin-top: 10px;
+    width: 600px;
+    display: block;
+    float: left;
+}
+
+.yourNumber {
+    background-color: white;
+    width: 600px;
+    height: 50px;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+footer {
+	margin: 20px;
+	padding: 50px;
+	float: left;
+}
